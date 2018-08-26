@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
     <title>Talented Chat BETA</title>
-    
+    <link rel="icon" href="/assets/talented.png">
     <link rel="stylesheet" href="/stylesheets/chatroom.css" type="text/css" />
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
