@@ -33,7 +33,7 @@
         <div class="or">OR</div>
       </div>
       <footer id="footer">
-      Powered by: © Rehsa
+      Powered by: © TalentEd Technologies
     </footer>
     </div>
 
