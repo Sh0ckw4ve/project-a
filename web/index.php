@@ -29,7 +29,7 @@
           <input onClick="UserFetch()" type="submit" name="" value="Login">
        
           <a href="#">Lost your password?</a><br>
-          <a href="#">Don't have an account?</a>
+          <a href="signup.php">Don't have an account?</a>
       </form>
     </div>
       <footer id="footer">
