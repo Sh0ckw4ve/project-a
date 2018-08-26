@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sign Up</title>
     <link rel="stylesheet" href="/stylesheets/signUp.css">
-    <link rel="icon" href="newlogo.png">
+    <link rel="icon" href="/assets/talented.png">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -15,7 +15,7 @@
     <div class="content">
       <p class="banner-text">Join Us!</p>
       <div class="login-section">
-        <img src="newlogo.png" class="pic">
+        <img src="/assets/talented.png" class="pic">
         <div class="left-box">
           <h1>Sign Up</h1>
           <input type="text" name="username" placeholder="Your Username.."/>
