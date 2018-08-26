@@ -31,9 +31,9 @@
           <a href="#">Lost your password?</a><br>
           <a href="#">Don't have an account?</a>
       </form>
+    </div>
       <footer id="footer">
       Powered by: TalentEd Technologies
     </footer>
-    </div>
   </body>
 </html>
