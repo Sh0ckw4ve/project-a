@@ -1,12 +1,12 @@
 /*TalentEd LogIn Template*/
-@import url('https://fonts.googleapis.com/css?family=Arvo:400,700');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee:400,700');
 
 * {
   margin: 0;
   padding: 0;
   background-size: cover;
   background-position: center;
-  font-family: Arvo;
+  font-family: ABeeZee;
 }
 
 
@@ -139,7 +139,7 @@ h1{
   bottom: 0;
   padding: 10px;
   width: 100%;
-  background: rgba(0,0,0,0.9);
+  background: #34495E;
   color: white;
   text-align: center;
 }
