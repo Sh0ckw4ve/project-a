@@ -23,10 +23,11 @@
       <h1>Login</h1>
       <form action="/views/logSuccess.php" method="get">
           <p>Username</p>
-          <input type="text" name="talenteduser" placeholder="Talented User">
+          <input type="text" id="talenteduser" placeholder="Talented User">
           <p>Password</p>
           <input type="password" name="" placeholder="Password">
-          <input type="submit" name="" value="Login">
+         <!-- <input type="submit" name="" value="Login"> -->
+          <button onclick="UserFetch()" name="Login"></button>
           <a href="#">Lost your password?</a><br>
           <a href="#">Don't have an account?</a>
       </form>
