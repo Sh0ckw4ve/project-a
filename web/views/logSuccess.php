@@ -13,7 +13,9 @@
     <script type="text/javascript">
     
         // ask user for name with popup prompt   
-        var name = <?php  $_GET["talenteduser"]; ?>
+        function UserFetch(){
+    var name = document.getElementById('talenteduser').value;
+ }
        
         
         // default name is 'Guest'
