@@ -12,11 +12,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/stylesheets/loginStyle.css">
-
+    <style> body {background: url('/assets/talentedbg.jpg');} </style>
   </head>
   <body>
     <div class="background-wrap">
-      <video src="/assets/coffee.mp4" type="video/mp4" id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted"></video>
     </div>
     <div class="content">
       <div class="login-section">
