@@ -12,8 +12,9 @@
     <script type="text/javascript" src="/scripts/chat.js"></script>
     <script type="text/javascript">
     
-        // ask user for name with popup prompt    
-        var name = prompt("Enter your chat name:", "Guest");
+        // ask user for name with popup prompt   
+        var name = <?php  $_GET["talenteduser"]; ?>
+       
         
         // default name is 'Guest'
     	if (!name || name === ' ') {
