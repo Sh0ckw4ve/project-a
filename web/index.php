@@ -22,7 +22,7 @@
       <div class="login-section">
   <img src="/assets/talented.png" class="pic">
       <h1>Login</h1>
-      <form>
+      <form action="/views/logSuccess.php" method="post">
           <p>Username</p>
           <input type="text" name="" placeholder="Your Username...">
           <p>Password</p>
