@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LogIn</title>
-    <link rel="icon" href="newlogo.png">
+    <link rel="icon" href="/assets/talented.png">
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -16,11 +16,11 @@
   </head>
   <body>
     <div class="background-wrap">
-      <video src="coffee.mp4" type="video/mp4" id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted"></video>
+      <video src="/assets/coffee.mp4" type="video/mp4" id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted="muted"></video>
     </div>
     <div class="content">
       <div class="login-section">
-  <img src="newlogo.png" class="pic">
+  <img src="/assets/talented.png" class="pic">
       <h1>Login</h1>
       <form>
           <p>Username</p>
