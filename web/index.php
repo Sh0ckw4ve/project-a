@@ -26,8 +26,8 @@
           <input type="text" id="talenteduser" placeholder="Talented User">
           <p>Password</p>
           <input type="password" name="" placeholder="Password">
-         <!-- <input type="submit" name="" value="Login"> -->
-          <button onclick="UserFetch()" name="Login"></button>
+          <input onClick="UserFetch()" type="submit" name="" value="Login">
+       
           <a href="#">Lost your password?</a><br>
           <a href="#">Don't have an account?</a>
       </form>
