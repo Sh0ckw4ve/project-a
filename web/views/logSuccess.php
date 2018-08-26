@@ -6,7 +6,7 @@
     
     <title>Talented Chat BETA</title>
     
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="/stylesheet/chatroom.css" type="text/css" />
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script type="text/javascript" src="/scripts/chat.js"></script>
