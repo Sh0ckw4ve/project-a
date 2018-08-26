@@ -22,11 +22,11 @@
       <div class="login-section">
   <img src="/assets/talented.png" class="pic">
       <h1>Login</h1>
-      <form action="/views/logSuccess.php" method="post">
+      <form action="/views/logSuccess.php" method="get">
           <p>Username</p>
-          <input type="text" name="" placeholder="Your Username...">
+          <input type="text" name="talenteduser" placeholder="Talented User">
           <p>Password</p>
-          <input type="password" name="" placeholder="Your Password...">
+          <input type="password" name="" placeholder="Password">
           <input type="submit" name="" value="Login">
           <a href="#">Lost your password?</a><br>
           <a href="#">Don't have an account?</a>
