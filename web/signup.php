@@ -28,12 +28,12 @@
           <span class="signupwith">Sign In with<br/>Social Network</span>
           <button class="social facebook">Facebook</button>
           <button class="social twitter">Twitter</button>
-          <button class="social github">GitHub</button>
+          <button class="social google">Google+</button>
         </div>
         <div class="or">OR</div>
       </div>
       <footer id="footer">
-      Powered by: © TalentEd Technologies
+      Powered by: © Talented Technologies
     </footer>
     </div>
 
