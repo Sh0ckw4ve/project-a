@@ -37,9 +37,9 @@ if ( $password == "admin@mytalented" )
     $_SESSION['phplogin'] = true;
     header('Location: /views/logSuccess.php'); 
     exit;
-} 
-else
+} else {
  echo "enter the correct login details";
+}
   ?>
           <a href="#">Lost your password?</a><br>
           <a href="signup.php">Don't have an account?</a>
