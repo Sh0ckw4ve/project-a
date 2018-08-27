@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sign Up</title>
+    <title>Talented Signup</title>
     <link rel="stylesheet" href="/stylesheets/signUp.css">
     <link rel="icon" href="/assets/talented.png">
     <!-- Bootstrap -->
@@ -18,17 +18,17 @@
         <img src="/assets/talented.png" class="pic">
         <div class="left-box">
           <h1>Sign Up</h1>
-          <input type="text" name="username" placeholder="Your Username.."/>
-          <input type="text" name="email" placeholder="Your Email.."/>
-          <input type="password" name="password" placeholder="Password.."/>
-          <input type="password" name="password" placeholder="Re-Type Pass.."/>
+          <input type="text" name="username" placeholder="New Username"/>
+          <input type="text" name="email" placeholder="E-mail"/>
+          <input type="password" name="password" placeholder="Password"/>
+          <input type="password" name="password" placeholder="Confirm Password"/>
           <input type="submit" name="signup-button" value="Sign Up">
         </div>
         <div class="right-box">
           <span class="signupwith">Sign In with<br/>Social Network</span>
           <button class="social facebook">Facebook</button>
           <button class="social twitter">Twitter</button>
-          <button class="social google">Google+</button>
+          <button class="social github">Google</button>
         </div>
         <div class="or">OR</div>
       </div>
