@@ -21,13 +21,26 @@
       <div class="login-section">
   <img src="/assets/talented.png" class="pic">
       <h1>Login</h1>
-      <form action="/views/logSuccess.php" method="get">
+      <form  method="post">
           <p>Username</p>
           <input type="text" id="talenteduser" placeholder="Talented User">
           <p>Password</p>
-          <input type="password" name="" placeholder="Password">
-          <input onClick="UserFetch()" type="submit" name="" value="Login">
-       
+          <input type="paswd" name="" placeholder="Password">
+          <input type="submit" name="" value="Login">
+       <?php
+        session_start();
+if(isset($_POST['login']))
+{
+$password = $_POST['pswd'];
+if ( $password == "admin@mytalented" )
+ { 
+    $_SESSION['phplogin'] = true;
+    header('Location: /views/logSuccess.php'); 
+    exit;
+} 
+else
+ echo "enter the correct login details";
+  ?>
           <a href="#">Lost your password?</a><br>
           <a href="signup.php">Don't have an account?</a>
       </form>
