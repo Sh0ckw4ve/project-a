@@ -13,9 +13,7 @@
     <script type="text/javascript">
     
         // ask user for name with popup prompt   
-        function UserFetch(){
-    var name = document.getElementById('talenteduser').value;
- }
+var name = prompt("Enter a name", "Guest");
        
         
         // default name is 'Guest'
