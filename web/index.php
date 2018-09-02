@@ -36,7 +36,7 @@ location="./math4.html"
           <p>Username</p>
           <input name="user" type="text" placeholder="Talented User">
           <p>Password</p>
-          <input name="pass" type"password" placeholder="Password">
+          <input name="pass" type="password" placeholder="Password">
          <!-- <input type="submit" name="" value="Login"> -->
          <input type="submit" value="Login" onClick="pasuser(this.form)">
 
