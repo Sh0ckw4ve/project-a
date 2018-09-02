@@ -25,7 +25,7 @@
           <p>Username</p>
           <input type="text" id="talenteduser" placeholder="Talented User">
           <p>Password</p>
-          <input type="paswd" name="" placeholder="Password">
+          <input type="password" name="" placeholder="Password">
           <input type="submit" name="" value="Login">
 
           <a href="#">Lost your password?</a><br>
