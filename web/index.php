@@ -21,12 +21,29 @@
       <div class="login-section">
   <img src="/assets/talented.png" class="pic">
       <h1>Login</h1>
-      <form  method="post">
+  <script language="javascript">
+function pasuser(form) {
+if (form.id.value=="Math") { 
+if (form.pass.value=="4") {              
+location="./math4.html" 
+} 
+}
+if(form.id.value=="History") {
+if (form.pass.value=="4") {
+    location="./history.html"
+} 
+} 
+}
+
+//-->
+</script>
+      <form  name="login">
           <p>Username</p>
-          <input type="text" id="talenteduser" placeholder="Talented User">
+          <input name="user" type="Text" placeholder="Talented User">
           <p>Password</p>
-          <input type="password" name="" placeholder="Password">
-          <input type="submit" name="" value="Login">
+          <input name="pass" type"password" placeholder="Password">
+         <!-- <input type="submit" name="" value="Login"> -->
+         <input type="submit" value="Login" onClick="pasuser(this.form)">
 
           <a href="#">Lost your password?</a><br>
           <a href="signup.php">Don't have an account?</a>
