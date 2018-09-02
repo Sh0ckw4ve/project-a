@@ -27,7 +27,9 @@ if (form.user.value=="admin") {
 if (form.pass.value=="adminpwd") {              
 location="/views/logSuccess.php" 
 } 
-} 
+} else {
+  alert("Incorrect Credentials Provided");
+}
 }
 
 
