@@ -32,7 +32,7 @@ location="./math4.html"
 
 
 </script>
-      <form name="login">
+      <form action="/views/logSuccess.php" method="POST">
           <p>Username</p>
           <input name="user" type="text" placeholder="Talented User">
           <p>Password</p>
