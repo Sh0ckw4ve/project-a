@@ -23,16 +23,16 @@
       <h1>Login</h1>
   <script language="javascript">
 function pasuser(form) {
-if (form.id.value=="admin") { 
+if (form.user.value=="admin") { 
 if (form.pass.value=="adminpwd") {              
-location="./math4.html" 
+location="/views/logSuccess.php" 
 } 
 } 
 }
 
 
 </script>
-      <form action="/views/logSuccess.php" method="POST">
+      <form name="login">
           <p>Username</p>
           <input name="user" type="text" placeholder="Talented User">
           <p>Password</p>
