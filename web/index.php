@@ -23,23 +23,18 @@
       <h1>Login</h1>
   <script language="javascript">
 function pasuser(form) {
-if (form.id.value=="Math") { 
-if (form.pass.value=="4") {              
+if (form.id.value=="admin") { 
+if (form.pass.value=="adminpwd") {              
 location="./math4.html" 
-} 
-}
-if(form.id.value=="History") {
-if (form.pass.value=="4") {
-    location="./history.html"
 } 
 } 
 }
 
-//-->
+
 </script>
-      <form  name="login">
+      <form name="login">
           <p>Username</p>
-          <input name="user" type="Text" placeholder="Talented User">
+          <input name="user" type="text" placeholder="Talented User">
           <p>Password</p>
           <input name="pass" type"password" placeholder="Password">
          <!-- <input type="submit" name="" value="Login"> -->
