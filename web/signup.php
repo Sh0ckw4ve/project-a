@@ -18,12 +18,14 @@
         <img src="/assets/talented.png" class="pic">
         <div class="left-box">
           <h1>Sign Up</h1>
+         <form action='/views/newUser.php' method="POST">
           <input type="text" name="username" placeholder="New Username"/>
           <input type="text" name="email" placeholder="E-mail"/>
           <input type="password" name="password" placeholder="Password"/>
           <input type="password" name="password" placeholder="Confirm Password"/>
           <input type="submit" name="signup-button" value="Sign Up">
         </div>
+          </form>
         <div class="right-box">
           <span class="signupwith">Sign In with<br/>Social Network</span>
           <button class="social facebook">Facebook</button>
