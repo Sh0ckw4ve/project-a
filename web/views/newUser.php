@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Welcome!</title>
+<title>Welcome to Talented!</title>
 <link rel="icon" href='/assets/talented.png'>
+  <script src="/scripts/newUser.js"></script>
+  <style>
+    body {background: "darkred";}
+  </style>
 </head>
 <body>
-<h1>test</h1>
+  <center><h1 style="color: darkcyan">TEST</h1></center>
 </body>
 </html>
