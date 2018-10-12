@@ -7,7 +7,7 @@
     <title>LogIn</title>
     <link rel="icon" href="/assets/talented.png">
 
-
+    <script src='/scripts/navigation.js'></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -118,32 +118,6 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   <div class="test4"><i class="fa fa-envelope-o fa-2x"></i></div>
   <div class="mask2"><i class="fa fa-home fa-3x"></i></div>
 </div>
-  <script>
-    $(document).ready(function() {
-
-  var active1 = false;
-  var active2 = false;
-  var active3 = false;
-  var active4 = false;
-
-    $('.parent2').on('mousedown touchstart', function() {
-    
-    if (!active1) $(this).find('.test1').css({'background-color': 'gray', 'transform': 'translate(0px,125px)'});
-    else $(this).find('.test1').css({'background-color': 'dimGray', 'transform': 'none'}); 
-     if (!active2) $(this).find('.test2').css({'background-color': 'gray', 'transform': 'translate(60px,105px)'});
-    else $(this).find('.test2').css({'background-color': 'darkGray', 'transform': 'none'});
-      if (!active3) $(this).find('.test3').css({'background-color': 'gray', 'transform': 'translate(105px,60px)'});
-    else $(this).find('.test3').css({'background-color': 'silver', 'transform': 'none'});
-      if (!active4) $(this).find('.test4').css({'background-color': 'gray', 'transform': 'translate(125px,0px)'});
-    else $(this).find('.test4').css({'background-color': 'silver', 'transform': 'none'});
-    active1 = !active1;
-    active2 = !active2;
-    active3 = !active3;
-    active4 = !active4;
-      
-    });
-});
-    </script>
       <div class="login-section">
   <img src="/assets/talented.png" class="pic">
       <h1>Login</h1>
