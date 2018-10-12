@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/stylesheets/loginStyle.css">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="/scripts/navigation.js"></script>
     <style> 
     body {
 
@@ -105,43 +107,165 @@ box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
   cursor:pointer;
   position:fixed;
 }
+      .open {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.2s linear;
+}
+
+.open:hover { opacity: 0.8; }
+
+.open span {
+  display: block;
+  float: left;
+  clear: both;
+  height: 4px;
+  width: 40px;
+  border-radius: 40px;
+  background-color: #fff;
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  overflow: hidden;
+  transition: all 0.4s ease;
+}
+
+.open span:nth-child(1) {
+  margin-top: 10px;
+  z-index: 9;
+}
+
+.open span:nth-child(2) { margin-top: 25px; }
+
+.open span:nth-child(3) { margin-top: 40px; }
+
+.sub-menu {
+  transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  height: 0;
+  width: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+  background-color: rgba(38, 84, 133, 0.54);
+  border-radius: 50%;
+  z-index: 18;
+  overflow: hidden;
+}
+
+.sub-menu li {
+  display: block;
+  float: right;
+  clear: both;
+  height: auto;
+  margin-right: -160px;
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sub-menu li:first-child { margin-top: 180px; }
+
+.sub-menu li:nth-child(1) { -webkit-transition-delay: 0.05s; }
+
+.sub-menu li:nth-child(2) { -webkit-transition-delay: 0.10s; }
+
+.sub-menu li:nth-child(3) { -webkit-transition-delay: 0.15s; }
+
+.sub-menu li:nth-child(4) { -webkit-transition-delay: 0.20s; }
+
+.sub-menu li:nth-child(5) { -webkit-transition-delay: 0.25s; }
+
+.sub-menu li a {
+  color: #fff;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  float: left;
+  line-height: 40px;
+}
+
+.oppenned .sub-menu {
+  opacity: 1;
+  height: 400px;
+  width: 400px;
+}
+
+.oppenned span:nth-child(2) { overflow: visible; }
+
+.oppenned span:nth-child(1),
+.oppenned span:nth-child(3) {
+  z-index: 100;
+  transform: rotate(45deg);
+}
+
+.oppenned span:nth-child(1) { transform: rotate(45deg) translateY(12px) translateX(12px); }
+
+.oppenned span:nth-child(2) {
+  height: 400px;
+  width: 400px;
+  right: -160px;
+  top: -160px;
+  border-radius: 50%;
+  background-color: rgba(38, 84, 133, 0.54);
+}
+
+.oppenned span:nth-child(3) { transform: rotate(-45deg) translateY(-10px) translateX(10px); }
+
+.oppenned li { margin-right: 168px; }
     </style>
   </head>
   <body>
 
  <div class="parent2">
-   <script type='text/javascript'>
-     $(document).ready(function() {
-
-  var active1 = false;
-  var active2 = false;
-  var active3 = false;
-  var active4 = false;
-
-    $('.parent2').on('mousedown touchstart', function() {
-    
-    if (!active1) $(this).find('.test1').css({'background-color': 'gray', 'transform': 'translate(0px,125px)'});
-    else $(this).find('.test1').css({'background-color': 'dimGray', 'transform': 'none'}); 
-     if (!active2) $(this).find('.test2').css({'background-color': 'gray', 'transform': 'translate(60px,105px)'});
-    else $(this).find('.test2').css({'background-color': 'darkGray', 'transform': 'none'});
-      if (!active3) $(this).find('.test3').css({'background-color': 'gray', 'transform': 'translate(105px,60px)'});
-    else $(this).find('.test3').css({'background-color': 'silver', 'transform': 'none'});
-      if (!active4) $(this).find('.test4').css({'background-color': 'gray', 'transform': 'translate(125px,0px)'});
-    else $(this).find('.test4').css({'background-color': 'silver', 'transform': 'none'});
-    active1 = !active1;
-    active2 = !active2;
-    active3 = !active3;
-    active4 = !active4;
-      
-    });
-});
-   </script>
   <div class="test1"><i class="fa fa-user fa-2x"></i></div>
   <div class="test2"><i class="fa fa-graduation-cap fa-2x"></i></div>
   <div class="test3"><i class="fa fa-code fa-2x"></i></div>
   <div class="test4"><i class="fa fa-envelope-o fa-2x"></i></div>
   <div class="mask2"><i class="fa fa-home fa-3x"></i></div>
     </div>
+    
+    <div class="open">
+
+  <span class="cls"></span>
+
+  <span>
+
+    <ul class="sub-menu ">
+
+      <li> <a href="#">Home</a> </li>
+
+      <li> <a href="#">Contact</a> </li>
+
+      <li> <a href="#">About</a> </li>
+
+      <li> <a href="#">Blog</a> </li>
+
+    </ul>
+
+  </span>
+
+  <span class="cls"></span>
+
+</div>
+<script>
+  $(document).ready(function() {
+  $(document).delegate('.open', 'click', function(event){
+    $(this).addClass('oppenned');
+    event.stopPropagation();
+  })
+  $(document).delegate('body', 'click', function(event) {
+    $('.open').removeClass('oppenned');
+  })
+  $(document).delegate('.cls', 'click', function(event){
+    $('.open').removeClass('oppenned');
+    event.stopPropagation();
+  });
+});
+    </script>
       <div class="login-section">
   <img src="/assets/talented.png" class="pic">
       <h1>Login</h1>
