@@ -10,10 +10,19 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+       background: -webkit-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* W3C */
+    </style>
+    
   </head>
   <body>
     <div class="content">
       <p class="banner-text">Join Us!</p>
+      <br><br>
       <div class="login-section">
         <img src="/assets/talented.png" class="pic">
         <div class="left-box">
@@ -38,8 +47,5 @@
       Powered by: © Talented Technologies
     </footer>
     </div>
-<?php
-    echo "Hello, Kay";
-    ?>
   </body>
 </html>
