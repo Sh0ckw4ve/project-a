@@ -38,6 +38,8 @@
       Powered by: © Talented Technologies
     </footer>
     </div>
-
+<?php
+    echo "Hello, Kay";
+    ?>
   </body>
 </html>
