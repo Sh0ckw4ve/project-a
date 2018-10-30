@@ -13,6 +13,7 @@
   <p>Welcome, $_POST['name']; </p>
   <?php
   echo "<p>PHP Test</p>";
+  echo "<center><h1 style=\"color: darkred\">Hey</h1></center>";
   ?>
 </body>
 </html>
