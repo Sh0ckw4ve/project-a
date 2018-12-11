@@ -91,7 +91,7 @@ var name = prompt("Enter a name", "Guest");
         <div id="chat-wrap"><div id="chat-area"></div></div>
         
         <form id="send-message-area">
-            <p>Your message: </p>
+            <p><strong> Your message: </strong></p>
             <textarea id="sendie" maxlength = '100' ></textarea>
         </form>
     
